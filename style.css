@@ -1,0 +1,55 @@
+body{
+    background-color: cadetblue;
+}
+
+h2{
+    color: blue;
+    text-align: center;
+}
+
+h2::first-letter{
+    font-size: 350%;
+    color: black;
+}
+
+p.listas{
+    text-align: center;
+}
+
+span.lista{
+    color: blue;
+}
+span.lista:hover{
+    color: red;
+    background-color: yellow;
+}
+
+.firstline::first-line{
+    color: red;
+}
+
+a:link{
+    background-color: white;
+}
+
+a:visited{
+    background-color: blue;
+    color: white;
+}
+
+.uno{
+    counter-reset: productos;
+}    
+
+p.productos::before{
+    content: counter(productos) ". ";
+    counter-increment: productos;
+}
+
+img.img1{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 70%;
+    bottom: 1%;
+}
