@@ -47,9 +47,10 @@ p.productos::before{
 }
 
 img.img1{
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     position: absolute;
     left: 70%;
     bottom: 1%;
+    top: 70%;
 }
